@@ -17,3 +17,9 @@
 * `cd /` change to the root directoy 
 
 ## How to install stuff on linux
+* `sudo apt search neo` search all packages with neo in name
+* `apt search ^neo` search for all package starting with neo
+* `sudo apt install packagename` to install a package
+* `sudo apt remove packagename` to remove stuff - but this will not remove all the dependencies attached to it
+* `sudo apt autoremove` to remove all the stuff that no longer has dependencies
+How do I know that `apt` are safe ?
