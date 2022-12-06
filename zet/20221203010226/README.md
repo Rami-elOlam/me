@@ -17,6 +17,10 @@
 * `cd /` change to the root directoy 
 * `| more` or `| less` to see scrolled output in terminal
 * `<Ctrl>-d` send 'end of data/files'
+* `vboxmanage startvm $<vmname> --type headless` start vm headless
+* `vboxmanage list runningvms` list runing vms
+* `vboxmanage list vms` list all vms
+* `vboxmanage controlvm $<vmname> poweroff` poweroff headless vm
 
 ## How to install stuff on linux
 * `sudo apt search neo` search all packages with neo in name
