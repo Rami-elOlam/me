@@ -10,8 +10,19 @@
 * Find anything modified in last 5 min ? `find ~ -nmin -5`
 * Find all files that are bigger that 10 Megabytes ?
 * How do I find all files with setuid perms on computer ? `find / -perm =s`
+* How to avoid using `cat` ? 
+* What is a UNIX filter ? 
+* How to append lines to a file ?  `>>`
 
 ## Command used
 
 * `find . | more` sort of the same as `ls -l1`
 * `find . -ls` same as the above but with the longer form
+* `head -5 foo` show the top 5 lines of foo file / `tail -5 foo` the 5 bottom lines
+* `tac foo` reverse `cat`
+* `nl` add line number to output
+* `>` write to file
+* `>>` append to file
+* `|` connect stdout to stdin
+* `<` send file to stdin
+* `tee tmp/foo` both write to a file foo and to stdout
