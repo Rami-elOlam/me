@@ -13,6 +13,7 @@
 * How to avoid using `cat` ? 
 * What is a UNIX filter ? 
 * How to append lines to a file ?  `>>`
+* How do I filter lines with keywords form files ? `grep`
 
 ## Command used
 
