@@ -29,3 +29,4 @@ Sets are made using `[]`
 * `^[^a]` anything that doesn’t start with a
 * `[^a]$` anything that doesn’t end with a
 * `[a-o]$` anything that ends with a letter a through z
+* `[a-zA-Z]` all of the letter
